@@ -1,0 +1,27 @@
+.images {
+    width: 100%;
+    background-color: forestgreen;
+}
+
+.images div {
+    background-color: antiquewhite;
+    margin: auto;
+    display: inline-block;
+    width: 25%;
+    margin-right: -3px;
+}
+
+.images div img {
+    margin: 0 auto;
+    display: block;
+}
+
+div p {
+    text-align: justify;
+}
+
+p {
+    width: 100%;
+    height: 1em;
+    display: inline-block;
+}
