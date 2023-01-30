@@ -1,10 +1,12 @@
 body {
     background-color: antiquewhite;
+    position: relative;
 }
 
 .images {
     width: 100%;
-    /* background-color: forestgreen; */
+    background-color: forestgreen;
+    position: absolute;
 }
 
 .images div {
@@ -37,4 +39,9 @@ figcaption {
     padding: 2px;
     text-align: center;
     margin-bottom: 0%;
+}
+
+.increase {
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
