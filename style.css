@@ -1,6 +1,10 @@
+body {
+    background-color: antiquewhite;
+}
+
 .images {
     width: 100%;
-    background-color: forestgreen;
+    /* background-color: forestgreen; */
 }
 
 .images div {
@@ -24,4 +28,13 @@ p {
     width: 100%;
     height: 1em;
     display: inline-block;
+}
+
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+    margin-bottom: 0%;
 }
